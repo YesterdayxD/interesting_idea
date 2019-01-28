@@ -1,5 +1,3 @@
-
-
 # from PIL import Image
 # # #
 # # # im_path = "C:/Users/limk/Desktop/interesting_idea/images/crop001001a.png"
@@ -17,8 +15,9 @@
 # cv2.imread("C:/Users/limk/Desktop/interesting_idea/images/crop001001a.png")
 
 import numpy as np
-with open("C:/Users/limk/Desktop/interesting_idea/pos_feature.npy","rb") as f:
-    a=np.load(f)
+
+with open("C:/Users/limk/Desktop/interesting_idea/pos_feature.npy", "rb") as f:
+    a = np.load(f)
     print(a)
     print(type(a))
     print(a.shape)

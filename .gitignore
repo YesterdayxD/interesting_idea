@@ -1,0 +1,6 @@
+mnist/
+.idea/
+images/
+Train/
+test_64x128_H96/
+*.npy
