@@ -14,10 +14,13 @@
 # import cv2
 # cv2.imread("C:/Users/limk/Desktop/interesting_idea/images/crop001001a.png")
 
-import numpy as np
-
-with open("C:/Users/limk/Desktop/interesting_idea/pos_feature.npy", "rb") as f:
-    a = np.load(f)
-    print(a)
-    print(type(a))
-    print(a.shape)
+#import numpy as np
+#
+#with open("C:/Users/limk/Desktop/interesting_idea/pos_feature.npy", "rb") as f:
+#    a = np.load(f)
+#    print(a)
+#    print(type(a))
+#    print(a.shape)
+#
+for i in range(3800):
+    print(int((i%(3800/100))*100))
